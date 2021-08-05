@@ -1,16 +1,15 @@
 {
-  "name": "vuepress-starter",
+  "name": "blog",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "repository": "git@github.com:dbjchan1121/blog.git",
+  "author": "陈喆 <307400468@qq.com>",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "Vuepress dev docs",
-    "docs:build": "Vuepress build docs"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "vuepress": "^1.8.2"
+    "vuepress": "^2.0.0-beta.23"
   }
 }
