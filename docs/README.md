@@ -1,9 +1,5 @@
 ---
-title: 标题
-description: 描述
+title: 小陳同学的blog
+description: 个人博客日常瞎扯
 ---
-# Hello VuePress
-
-## 1
-
-### 1123
+# 个人博客日常瞎扯
