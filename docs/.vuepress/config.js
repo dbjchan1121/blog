@@ -2,7 +2,7 @@ module.exports = {
 	lang: 'zh-CN',
 	title: '小陳同学',
 	description: '日常瞎扯',
-	base: 'blog',
+	base: '/blog/',
 	themeConfig: {
 		logo: 'https://cdn0.iconfinder.com/data/icons/hexagone-business-finance-set-1/128/BLOG_WRITING-512.png',
 		navbar: [
