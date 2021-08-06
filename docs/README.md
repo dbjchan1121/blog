@@ -10,5 +10,5 @@ description: 个人博客日常瞎扯
 - [x] 首页
 - [x] 侧边栏
 - [x] 头部
-- [ ] 构建
-- [ ] Github Action自动化部署
+- [x] 构建
+- [x] Github Action自动化部署
