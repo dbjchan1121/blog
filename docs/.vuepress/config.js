@@ -38,6 +38,10 @@ module.exports = {
 					{
 						text: 'vue 3.x',
 						link: '/analysis/vue3.x'
+					},
+					{
+						text: 'axios',
+						link: '/analysis/axios'
 					}
 				]
 			},
