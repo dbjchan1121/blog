@@ -17,6 +17,14 @@ module.exports = {
 					{
 						text: '你不知道的JS（上）',
 						link: '/reading/You-Dont-Know-JS-1st'
+					},
+					{
+						text: '你不知道的JS（中）',
+						link: '/reading/You-Dont-Know-JS-2nd'
+					},
+					{
+						text: '你不知道的JS（下）',
+						link: '/reading/You-Dont-Know-JS-3rd'
 					}
 				]
 			},
