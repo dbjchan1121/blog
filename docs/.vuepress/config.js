@@ -8,6 +8,33 @@ module.exports = {
 		logo: 'https://cdn0.iconfinder.com/data/icons/hexagone-business-finance-set-1/128/BLOG_WRITING-512.png',
 		navbar: [
 			{
+				text: '前端',
+				children: [
+					{
+						text: 'Vue',
+						children: [
+							{
+								text: 'Vue Router',
+								link: '/front-end/vue/vue-router/index.md',
+								activeMatch: '/front-end/vue/vue-router/',
+							},
+							{
+								text: 'Vuex',
+								link: '/front-end/vue/vuex/index.md'
+							}
+						]
+					},
+					{
+						text: 'Flutter/Dart',
+						children: ['/front-end/Flutter&Dart/index.md']
+					}
+				]
+			},
+			{
+				text: '后端',
+				link: '/back-end/'
+			},
+			{
 				text: 'Linux/OS X',
 				link: '/system/'
 			},
@@ -50,17 +77,17 @@ module.exports = {
 				link: 'https://github.com/dbjchan1121'
 			}
 		],
-		// sidebar: [
-		// 	{
-		// 		text: 'JS',
-		// 		link: '/JS/',
-		// 		children: [
-		// 			{
-		// 				text: 'this',
-		// 				link: 'this.md'
-		// 			}
-		// 		]
-		// 	}
-		// ]
+		sidebar: {
+			'/front-end/vue/vue-router': [
+				{
+					text: 'Vue Router',
+					children: [
+						'/front-end/vue/vue-router/index.md',
+						'/front-end/vue/vue-router/router1.md',
+						'/front-end/vue/vue-router/router2.md'
+					]
+				}
+			]
+		}
 	}
 }
