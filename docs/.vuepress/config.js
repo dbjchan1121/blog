@@ -26,7 +26,8 @@ module.exports = {
 					},
 					{
 						text: 'Flutter/Dart',
-						children: ['/front-end/Flutter&Dart/index.md']
+						link: '/front-end/Flutter&Dart/index.md',
+						activeMatch: '/front-end/Flutter&Dart/',
 					}
 				]
 			},
@@ -85,6 +86,20 @@ module.exports = {
 						'/front-end/vue/vue-router/index.md',
 						'/front-end/vue/vue-router/router1.md',
 						'/front-end/vue/vue-router/router2.md'
+					]
+				}
+			],
+			'/front-end/Flutter&Dart/': [
+				{
+					text: 'Flutter 原理',
+					children: [
+						'/front-end/Flutter&Dart/index.md'
+					]
+				},
+				{
+					text: 'Flutter 路由',
+					children: [
+						'/front-end/Flutter&Dart/flutter-route.md'
 					]
 				}
 			]
