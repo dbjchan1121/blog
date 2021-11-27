@@ -82,9 +82,9 @@ module.exports = {
 		sidebar: {
 			'/system/': [
 				{
-					text: 'Shell',
+					text: 'Bash',
 					children: [
-						'/system/shell/shell.md'
+						'/system/Bash/path.md'
 					]
 				}
 			],
