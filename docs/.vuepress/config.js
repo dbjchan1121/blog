@@ -78,8 +78,17 @@ module.exports = {
 				link: 'https://github.com/dbjchan1121'
 			}
 		],
+		// 侧边栏配置
 		sidebar: {
-			'/front-end/vue/vue-router': [
+			'/system/': [
+				{
+					text: 'Shell',
+					children: [
+						'/system/shell/shell.md'
+					]
+				}
+			],
+			'/front-end/vue/vue-router/': [
 				{
 					text: 'Vue Router',
 					children: [
