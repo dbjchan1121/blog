@@ -4,6 +4,14 @@ description: 个人博客日常瞎扯
 ---
 # 个人博客日常瞎扯
 
+## 启动本地服务
+
+> yarn docs:dev
+
+## 部署
+
+> yarn docs:build
+
 # TODO
 
 - [x] 初始化
