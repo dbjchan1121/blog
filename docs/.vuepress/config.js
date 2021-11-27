@@ -84,7 +84,7 @@ module.exports = {
 				{
 					text: 'Bash',
 					children: [
-						'/system/Bash/path.md'
+						'/system/bash/path.md'
 					]
 				}
 			],
