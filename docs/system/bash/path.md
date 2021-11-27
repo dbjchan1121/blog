@@ -23,7 +23,7 @@ $ which flutter # /Users/xx/development/flutter/bin/flutter
 输出所有环境变量验证是否成功
 
 ```shell
-$ echo $PATH # /other path/bin:/User/xx/development/flutter/bin
+$ echo $PATH # /other_path/bin:/User/xx/development/flutter/bin
 ```
 
 ### 配置 Flutter 资源环境
