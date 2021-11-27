@@ -22,7 +22,7 @@ $ which flutter # /Users/xx/development/flutter/bin/flutter
 
 输出所有环境变量验证是否成功
 
-```SHELL
+```shell
 $ echo $PATH # /other path/bin:/User/xx/development/flutter/bin
 ```
 
