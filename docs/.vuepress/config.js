@@ -36,6 +36,10 @@ module.exports = {
 				link: '/back-end/'
 			},
 			{
+				text: '对比系列',
+				link: '/compare/'
+			},
+			{
 				text: 'Linux/OS X',
 				link: '/system/'
 			},
