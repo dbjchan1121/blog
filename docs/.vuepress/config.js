@@ -115,6 +115,14 @@ module.exports = {
 						'/front-end/Flutter&Dart/flutter-route.md'
 					]
 				}
+			],
+			'/compare/': [
+				{
+					text: 'Dart 与 JS 的事件循环与异步编程对比',
+					children: [
+						'/compare/event-loop.md'
+					]
+				}
 			]
 		}
 	}
