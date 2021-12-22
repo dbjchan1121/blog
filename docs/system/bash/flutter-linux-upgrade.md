@@ -21,7 +21,7 @@ wget https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/
 > 将 Flutter 解压至 /root 文件夹
 
 ```bash
-tar --same-owner /pkg/flutter_linux_2.8.1-stable.tar.xz /root
+tar --same-owner -xvf /pkg/flutter_linux_2.8.1-stable.tar.xz -C /root
 ```
 
 ## 修改文件夹权限
