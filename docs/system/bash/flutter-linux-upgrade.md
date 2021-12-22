@@ -31,3 +31,7 @@ tar --same-owner -xvf /pkg/flutter_linux_2.8.1-stable.tar.xz -C /root
 ```bash
 chmod -R 777 /root/flutter
 ```
+
+```bash
+chown -R gitlab-runner /root/flutter
+```
