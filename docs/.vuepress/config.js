@@ -86,9 +86,10 @@ module.exports = {
 		sidebar: {
 			'/system/': [
 				{
-					text: 'Bash',
+					text: 'Linux 相关',
 					children: [
-						'/system/bash/path.md'
+						'/system/bash/path.md',
+						'/system/bash/flutter-linux-upgrade.md'
 					]
 				}
 			],
