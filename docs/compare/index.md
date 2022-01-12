@@ -8,3 +8,4 @@
 - [ ] Vue 与 Flutter 的无限滚动与优化
 - [ ] Vue 与 Flutter 的路由对比，以及 Flutter 路由的实现方式
 - [ ] Vue 与 Flutter 的动态路由实现以及路由控权对比
+- [ ] Vue 与 Flutter 的 re-render 对比
