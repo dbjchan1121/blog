@@ -12,4 +12,4 @@
 - [ ] Flutter 在 web 的应用
 - [ ] Flutter React Vue 响应式对比
 - [ ] Flutter React 组件写法对比
-- [ ] 状态管理对比
+- [ ] Flutter React Vue状态管理对比
