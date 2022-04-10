@@ -13,4 +13,4 @@
 - [ ] Flutter React Vue 响应式对比
 - [ ] Flutter React 组件写法对比
 - [ ] Flutter React Vue状态管理对比
-- [ ] Flutter Electron 客户端对比（UI的编写，原生系统的能力）
+- [ ] Flutter Electron 客户端对比（UI的编写，原生系统的能力，打包构建）
