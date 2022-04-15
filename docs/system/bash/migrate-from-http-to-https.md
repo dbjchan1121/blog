@@ -1,4 +1,4 @@
-Nginx安装ssl证书
+# Nginx安装ssl证书
 
 ```nginx
 #以下属性中，以ssl开头的属性表示与证书配置有关。
@@ -22,4 +22,23 @@ server {
         index index.html index.htm;
     }
 }
+```
+
+# Nginx 403 forbidden
+
+```bash
+cat var/log/nginx/error.log
+```
+
+error.log
+
+```
+2022/04/15 16:43:36 [error] 640767#0: *14154 open() "/root/web/favicon.ico" failed (13: Permission denied), client: 14.153.185.89, server: www.1ji.co, request: "GET /favicon.ico HTTP/1.1", host: "www.1ji.co", referrer: "https://www.1ji.co/"
+```
+
+解决：
+
+```bash
+chmod -R 777 /data
+chmod -R 777 /data/www/
 ```
