@@ -1,5 +1,7 @@
 # Nginx安装ssl证书
 
+> 配置放行80端口和443端口
+
 ```nginx
 #以下属性中，以ssl开头的属性表示与证书配置有关。
 server {
@@ -22,6 +24,12 @@ server {
         index index.html index.htm;
     }
 }
+```
+
+# 设置HTTP请求自动跳转HTTPS
+
+```nginx
+rewrite ^(.*)$ https://$host$1; #将所有HTTP请求通过rewrite指令重定向到HTTPS。
 ```
 
 # Nginx 403 forbidden
