@@ -50,3 +50,9 @@ error.log
 chmod -R 777 /data
 chmod -R 777 /data/www/
 ```
+
+# 验证是否成功
+
+> 通过浏览器访问域名，显示小锁头即配置ssl证书成功。
+
+![](../img/ssl_img.png)
