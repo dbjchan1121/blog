@@ -31,6 +31,6 @@ $ echo $PATH # /other_path/bin:/User/xx/development/flutter/bin
 由于防火墙的原因，国内开发需将资源配置为国内镜像。
 
 ```bash
-export FLUTTER_STORAGE_BASE_URL=https://pub.flutter-io.cn
+export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 export PUB_HOSTED_URL=https://pub.flutter-io.cn
 ```
