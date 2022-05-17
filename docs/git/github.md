@@ -34,3 +34,14 @@ Failed during: git fetch --force origin
 ```bash
 git config --global http.proxy http://127.0.0.1:8118 # 示例
 ```
+## ssh passphrase 问题
+
+```bash
+eval `ssh-agent -s`
+> Agent pid 12825
+```
+
+```bash
+ssh-add ~/.ssh/*_rsa
+> Enter passphrase for /Users/chenzhe/.ssh/id_rsa: 
+```
