@@ -45,3 +45,12 @@ eval `ssh-agent -s`
 ssh-add ~/.ssh/*_rsa
 > Enter passphrase for /Users/chenzhe/.ssh/id_rsa: 
 ```
+
+## 解决 VS Code 仍然提示输入密码
+
+```bash
+Host *
+  UseKeychain yes
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_rsa
+```
