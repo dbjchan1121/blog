@@ -48,6 +48,8 @@ ssh-add ~/.ssh/*_rsa
 
 ## 解决 VS Code 仍然提示输入密码
 
+> 设置 IdentityFile 的原因是确保能找到密钥位置
+
 ```bash
 Host *
   UseKeychain yes
