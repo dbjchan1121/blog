@@ -56,3 +56,7 @@ Host *
   AddKeysToAgent yes
   IdentityFile ~/.ssh/id_rsa
 ```
+
+# 参考文章
+
+- https://superuser.com/questions/360302/os-x-ssh-use-different-private-key-files-for-different-servers#
