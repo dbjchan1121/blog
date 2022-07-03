@@ -29,10 +29,18 @@ fatal: unable to access 'https://github.com/Homebrew/brew/': Failed to connect t
 Failed during: git fetch --force origin
 ```
 
-配置git proxy（需要有本地代理）
+### 配置git proxy（需要有本地代理）
 
 ```bash
 git config --global http.proxy http://127.0.0.1:8118 # 示例
+git config --global https.proxy https://127.0.0.1:8118 # 示例
+```
+
+### 取消设置代理
+
+```bash
+git config --global --unset http.proxy
+git config --global --unset https.proxy
 ```
 ## ssh passphrase 问题
 
